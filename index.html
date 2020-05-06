@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Calculator</title>
+	<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
+	<script src="functions.js"></script>
+	<script src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<main class="container">
+		<h1 id="headline">Calculator</h1>
+
+		<div id="calculator-container">
+
+			<div id="display-container" class="calculator-row">
+				<div id="display"></div>
+			</div>
+
+			<div id="row_1" class="calculator-row">
+				<button id="clear" type="button" value="clear">C</button>
+				<button id="plus" class="in-button" type="button" value="+">+</button>
+			</div>
+				
+			<div id="row_2" class="calculator-row">
+				<button id="num_7" class="in-button" type="button" value="7">7</button>
+				<button id="num_8" class="in-button" type="button" value="8">8</button>
+				<button id="num_9" class="in-button" type="button" value="9">9</button>
+				<button id="minus" class="in-button" type="button" value="-">-</button>
+			</div>
+
+			<div id="row_3" class="calculator-row">
+				<button id="num_4" class="in-button" type="button" value="4">4</button>
+				<button id="num_5" class="in-button" type="button" value="5">5</button>
+				<button id="num_6" class="in-button" type="button" value="6">6</button>
+				<button id="multi" class="in-button" type="button" value="x">x</button>
+			</div>
+
+			<div id="row_4" class="calculator-row">
+				<button id="num_1" class="in-button" type="button" value="1">1</button>
+				<button id="num_2" class="in-button" type="button" value="2">2</button>
+				<button id="num_3" class="in-button" type="button" value="3">3</button>
+				<button id="divide" class="in-button" type="button" value="/">/</button>
+			</div>
+
+			<div id="row_5" class="calculator-row">
+				<div></div>
+				<button id="num_0" class="in-button" type="button" value="0">0</button>
+				<button id="point" class="in-button" type="button" value=".">.</button>
+				<button id="equals" class="in-button" type="button" value="=">=</button>
+			</div>
+
+		</div>
+	</main>
+</body>
+</html>

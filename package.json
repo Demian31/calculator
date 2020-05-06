@@ -1,0 +1,30 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "functions.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Demian31/calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Demian31/calculator/issues"
+  },
+  "homepage": "https://github.com/Demian31/calculator#readme",
+  "devDependencies": {
+    "jest": {
+      "version": "^26.0.0",
+      "globals": {
+        "cc": {
+          "Node": null
+        }
+      }
+    }
+  }
+}
